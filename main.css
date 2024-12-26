@@ -1,0 +1,75 @@
+:root{
+
+    --background-color: rgb(34, 33, 41);
+
+
+}
+
+
+body{
+
+    background-color: var(--background-color);
+    color: white;
+}
+
+
+a{
+    color: #ffa86a;
+
+    &:visited{
+        color: #ffa86a;
+    }
+
+}
+
+
+h1{
+    color: #ffa86a;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+
+    >div{
+        max-width: 500px;
+
+        >p{
+            line-height: 30px;
+        }
+
+    }
+
+}
+
+
+.comment{
+    color: #80C080;
+}
+
+
+figure{
+
+    border-radius: 50%;
+    border: 2px dashed #fff;
+    width: 320px;
+    height: 320px;
+    display: grid;
+    place-content: center;
+
+    img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+}
+
+
+footer{
+    opacity: .5;
+    display: grid;
+    place-content: center;
+}
