@@ -6,8 +6,20 @@
 }
 
 
-body{
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf') format("truetype-variations");
+}
 
+
+@font-face {
+    font-family: 'Source Code Pro - italic';
+    src: url('fonts/Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.ttf') format("truetype-variations");
+}
+
+
+body{
+    font-family: 'Source Code Pro';
     background-color: var(--background-color);
     color: white;
 }
@@ -72,4 +84,5 @@ footer{
     opacity: .5;
     display: grid;
     place-content: center;
+    font-family: 'Source Code Pro - italic';
 }
