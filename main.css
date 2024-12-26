@@ -39,7 +39,7 @@ h1{
     color: #ffa86a;
 }
 
-main{
+section.bio{
     display: flex;
     justify-content: center;
     gap: 72px;
@@ -55,6 +55,25 @@ main{
 
 }
 
+
+section.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+dl.contact{
+    display: flex;
+    align-items: center;
+
+
+    svg{
+        fill: white;
+        width: 36px;
+        height: auto;
+    }
+
+}
 
 .comment{
     color: #80C080;
